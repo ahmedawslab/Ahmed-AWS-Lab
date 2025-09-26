@@ -2,11 +2,24 @@
 # Deployment Guide: Scalable Web App on AWS
 
 This guide provides a detailed, step-by-step process for deploying the Scalable Web Application on AWS.
-
-## Prerequisites
-*   An active AWS account.
-*   Basic knowledge of AWS services (VPC, EC2, RDS).
-*   A text editor.
+##Contents:
+* Diagram in .png extention
+* Steps of the implementation 
+## Solutin overview 
+* Architecture: EC2-based
+* Description:
+   Deploy a simple web application on AWS using EC2 instances, ensuring high availability and scalability with Elastic Load Balancing (ALB) and Auto Scaling Groups (ASG). The project       demonstrates best practices for compute scalability, security, and cost optimization.
+* Key AWS Services Used:
+   EC2: Launch instances for the web app.
+   Application Load Balancer (ALB): Distributes traffic across multiple instances.
+   Auto Scaling Group (ASG): Ensures instances scale based on demand.
+   Amazon RDS (Optional): Backend database (MySQL/PostgreSQL) with Multi-AZ.
+   IAM: Role-based access to instances.
+   CloudWatch & SNS: Monitor performance and send alerts.
+*Learning Outcomes:
+   Setting up secure and scalable EC2-based web applications.
+   Implementing high availability using ALB and ASG.
+   Optimizing costs and performance using Auto Scaling policies.
 
 ## Step 1: Create the VPC and Networking
 1.  **Create a VPC:**
