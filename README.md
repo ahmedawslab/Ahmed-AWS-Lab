@@ -17,9 +17,9 @@ This guide provides a detailed, step-by-step process for deploying the Scalable 
    * IAM: Role-based access to instances.
    * CloudWatch & SNS: Monitor performance and send alerts.
 *Learning Outcomes:
-   Setting up secure and scalable EC2-based web applications.
-   Implementing high availability using ALB and ASG.
-   Optimizing costs and performance using Auto Scaling policies.
+    * Setting up secure and scalable EC2-based web applications.
+    * Implementing high availability using ALB and ASG.
+    * Optimizing costs and performance using Auto Scaling policies.
 ## Default Architecture
 
 ![Architecture Diagram (Default Architecture)](./diagram.png)
