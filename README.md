@@ -16,7 +16,7 @@ This guide provides a detailed, step-by-step process for deploying the Scalable 
    * Amazon RDS (Optional): Backend database (MySQL/PostgreSQL) with Multi-AZ.
    * IAM: Role-based access to instances.
    * CloudWatch & SNS: Monitor performance and send alerts.
-*Learning Outcomes:
+* Learning Outcomes:
     * Setting up secure and scalable EC2-based web applications.
     * Implementing high availability using ALB and ASG.
     * Optimizing costs and performance using Auto Scaling policies.
